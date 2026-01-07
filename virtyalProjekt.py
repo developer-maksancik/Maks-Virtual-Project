@@ -62,16 +62,15 @@ print("2.English")
 U = input("> ")
 if U == "1":
     print("успешно!")
-if U == "2":
+elif U == "2":
     print("success!")
     lang = True
 else:
-    print("error")
     print("выберете язык/select language")
     print("1.руский")
     print("2.English")
     U = input("> ")
-
+    
 print("здраствуйте")
 print("чтобы пользватся виртуальным сервером необходимо зарегестрироватся")
 Q = input("ваше имя: ")
