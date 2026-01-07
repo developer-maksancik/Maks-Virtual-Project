@@ -1,5 +1,5 @@
 lang = False
-#False - руский
+#False - русский
 #True - англиский
 T = 0
 QQ = 0
@@ -57,7 +57,7 @@ def menu():
         menu()
 
 print("выберете язык/select language")
-print("1.руский")
+print("1.русский")
 print("2.English")
 U = input("> ")
 if U == "1":
@@ -66,11 +66,13 @@ elif U == "2":
     print("success!")
     lang = True
 else:
+    print("автоматически поставится русский если вы пропустите")
+    print("Russian will be selected by default if you skip this step")
     print("выберете язык/select language")
-    print("1.руский")
+    print("1.русский")
     print("2.English")
     U = input("> ")
-    
+
 print("здраствуйте")
 print("чтобы пользватся виртуальным сервером необходимо зарегестрироватся")
 Q = input("ваше имя: ")
