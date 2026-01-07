@@ -30,7 +30,7 @@ def expt():
         S = input("введите свое имя: ")
         if S in users:
             SS = input("ведите пароль: ")
-            if int(SS) == password:
+            if SS == password:
                 menu()
             else:
                 print("не верный пароль")
@@ -72,20 +72,30 @@ else:
     print("1.русский")
     print("2.English")
     U = input("> ")
-
-print("здраствуйте")
-print("чтобы пользватся виртуальным сервером необходимо зарегестрироватся")
-Q = input("ваше имя: ")
+    
+if lang == True:
+    print("Hello!")
+    print("To use the virtual server, you need to register.")
+    Q = input("Enter your name: ")
+else:
+    print("здраствуйте")
+    print("чтобы пользватся виртуальным сервером необходимо зарегестрироватся")
+    Q = input("ваше имя: ")
 admin = Q
 users.append(admin)
-QQ = int(input(f"хорошо {admin},теперь придумайте надежный пароль: "))
-password = QQ
-print("успешно!")
-menu()
+if lang == True:
+    QQ = input(f"Great {admin}, now create a strong password: ")
+    print("success!")
+    password = QQ
+    menu()
+else:
+    QQ = input(f"хорошо {admin},теперь придумайте надежный пароль: ")
+    print("успешно!")
+    password = QQ
+    menu()
+    
+    
+    
 
-
-    
-    
-    
 
 
