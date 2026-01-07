@@ -1,37 +1,46 @@
-я макс,я сделал данную програму за 2 часа.
-я новичок и пока только практикуюсь,
-я решил вести свой гит хаб чтобы в будушем посмотреть что я делал в самом начале.
-покамись я учу базу пайтона на потом планирую пойти на С или С++.
-я начал учить Git  и GitHab 
+version: 0.1.0
 
-в момент публикации мне 13 лет 
-я 2012 года.
+In development:
+adding english language
+
+Description: this program is a python script, where you will create virtual servers, add users, change passwords.
+this program has no application, and was developed as an interesting practice.
+
+Installation instructions: to test this script you need to follow these steps: 
+1.download python to your laptop from the official site 
+2.install an IDE or other programs in which you will write code for example PyCharm, VS code, in extreme cases write code in notepad and run it in the terminal using the command python {path to the file with the code} 
+3.copy/install the file or script code and run it
+
+About the author and contact: i am maks, i made this program in 2 hours.
+i am a beginner and i am just practicing for now, i decided to keep my git hub to see in the future what i was doing at the very beginning.
+at the moment i am learning python basics and then i plan to go to C or C++.
+i started learning Git and GitHub. also i will update this project further.
+
+at the time of publication i am 13 years old i was born in 2012.
+
+Contact:
+my Email: dekabri2316@gmail.com 
+my tg: @maks39P 
+my telegram ID may change over time, i recommend writing to Email
 
 
 
 
 
-Если вы найдете баги или захотите мне написать:
-мой Emeil: dekabri2316@gmail.com
-мой тг: @maks39P
-мой телеграм ID может поменятся со временем,советую писать на Emeil 
 
 
 
-англиский/english
 
 
 
-I am Maks.
-I made this program in 2 hours. 
-I am a beginner and I am just practicing for now. 
-I decided to keep my GitHub to see in the future what I was doing at the very beginning. 
-At the moment I am learning Python basics, later I plan to learn C or C++. 
-I started learning Git and GitHub.
 
-At the time of publication I am 13 years old. I was born in 2012.
 
-If you find bugs or want to write to me:
-My Email: dekabri2316@gmail.com
-My TG: @maks39P 
-My Telegram ID may change over time, I recommend writing to Email.
+
+
+
+
+
+
+
+
+
