@@ -7,9 +7,15 @@ w = ""
 users = []
 password = QQ
 admin = w
-menu0 = "1)новый пользватель"
-menu1 = "2)сменить пароль"
-menu2 = "3)выход"
+menu0 = "1) Новый пользователь"
+menu1 = "2) Сменить пароль"
+menu2 = "3) Выход"
+    
+if lang == True:
+    menu0 = "1) New user"
+    menu1 = "2) Change password"
+    menu2 = "3) Exit"
+ 
 def redaktPassword():
     global T, password
     T = int(input("новый пароль: "))
@@ -55,7 +61,7 @@ def menu():
         expt()
     else:
         menu()
-
+        
 print("выберете язык/select language")
 print("1.русский")
 print("2.English")
@@ -73,6 +79,11 @@ else:
     print("2.English")
     U = input("> ")
     
+if lang == True:
+    menu0 = "1) New user"
+    menu1 = "2) Change password"
+    menu2 = "3) Exit"
+ 
 if lang == True:
     print("Hello!")
     print("To use the virtual server, you need to register.")
