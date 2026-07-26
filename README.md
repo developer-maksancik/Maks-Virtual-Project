@@ -1,3 +1,5 @@
+PROJECT IS NO LONGER SUPPORTED!
+
 version: 0.1.0
 
 In development:
