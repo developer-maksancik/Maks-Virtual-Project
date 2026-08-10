@@ -1,65 +1,62 @@
-T = 0
-QQ = 0
-w = ""
+
 users = []
-password = QQ
-admin = w
-menu0 = "1)новый пользватель"
-menu1 = "2)сменить пароль"
-menu2 = "3)выход"
-def redaktPassword():
-    global T, password
-    T = int(input("новый пароль: "))
-    password = T
+admin_name = ""
+password_admin = 0
+menu_new_user = "1) новый пользватель"
+menu_password_correct = "2) сменить пароль"
+menu_exit = "3) выход"
+
+def redakt_password():
+    global password_admin
+    request_new_password_ = int(input("новый пароль: "))
+    password_admin = request_new_password_
     menu()
     
-def newUSers():
+def new_users():
     global users 
-    E = input("имя нового пользвателя: ")
-    users.append(E)
+    users_conect_ = input("имя нового пользвателя: ")
+    users.append(users_conect_)
     print("успешно!")
     print(users)
     menu()
     
-def expt():
+def exit_and_entry():
     print("вы вышли с акаунта")
     while True:
-        S = input("введите свое имя: ")
-        if S in users:
-            SS = input("ведите пароль: ")
-            if int(SS) == password:
+        request_name_ = input("введите свое имя: ")
+        if request_name_ in users:
+            request_password_ = input("ведите пароль: ")
+            if int(request_password_) == password_admin:
                 menu()
             else:
                 print("не верный пароль")
-                SS = input("введите пароль: ")
-        if S == admin:
-            SS = input("ведите пароль: ")
+                request_password_ = input("введите пароль: ")
             
         else:
-            print(S)
+            print(request_name)
     
 def menu():
     print(users)
-    print(menu0)
-    print(menu1)
-    print(menu2)
-    QQQ = input("> ")
-    if QQQ == "1":
-        newUSers()
-    if QQQ == "2":
-        redaktPassword()
-    if QQQ == "3":
-        expt()
+    print(menu_new_user)
+    print(menu_password_correct)
+    print(menu_exit)
+    request_ = input("> ")
+    if request_ == "1":
+        new_users()
+    if request_ == "2":
+        redakt_password()
+    if request_ == "3":
+        exit_and_entry()
     else:
         menu()
 
 print("здраствуйте")
 print("чтобы пользватся виртуальным сервером необходимо зарегестрироватся")
-Q = input("ваше имя: ")
-admin = Q
-users.append(admin)
-QQ = int(input(f"хорошо {admin},теперь придумайте надежный пароль: "))
-password = QQ
+request_register_name_admin_ = input("ваше имя: ")
+admin_name = request_register_name_admin_
+users.append(admin_name)
+request_register_password_admin_ = int(input(f"хорошо {admin_name}, теперь придумайте надежный пароль: "))
+password_admin = request_register_password_admin_
 print("успешно!")
 menu()
 
