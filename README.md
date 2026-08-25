@@ -17,11 +17,6 @@ i am maks, i made this program in 2 hours. i am a beginner and i am just practic
 
 ### at the time of publication i am 13 years old i was born in 2012.
 
-## Contact:
-### my Email: dekabri2316@gmail.com (I don't recommend messaging here, I might miss your message.)
-### my tg: @maks39P 
-
-
 ---
 
 ## версия: 1.0.1
@@ -43,11 +38,6 @@ i am maks, i made this program in 2 hours. i am a beginner and i am just practic
 я новичок и пока просто практикуюсь, я решил вести свой git hub, чтобы видеть в будущем, что я делал в самом начале. на данный момент я изучаю основы python, а затем планирую перейти на C или C++. я начал изучать Git и GitHub. также я буду обновлять этот проект дальше.
 
 ### на момент публикации мне 13 лет, я родился в 2012 году.
-
-## Контакты: 
-### мой Email: dekabri2316@gmail.com (Не рекомендую писать сюда, могу не заметить ваше сообщение.)
-### мой тг: @maks39P
-
 
 
 
